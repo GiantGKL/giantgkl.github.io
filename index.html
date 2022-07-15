@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <script>
-window.location.href="http://120.48.108.90:114/";
+var url = window.location.href
+var a = String(url).split("?")
+a.shift()
+window.location.href="http://120.48.108.90:114" + a;
 </script>
 <body>
 </body>
